@@ -19,7 +19,7 @@ In this test phase, I allow users to remove each item from the cart by using the
 
 * Import the following SQL script for creating a product table and   load your own data to show in your catalog page.
 
-    "CREATE TABLE IF NOT EXISTS `tblproduct` (
+  `CREATE TABLE IF NOT EXISTS `tblproduct` (
   `id` int(8) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `code` varchar(255) NOT NULL,
@@ -27,7 +27,7 @@ In this test phase, I allow users to remove each item from the cart by using the
   `price` double(10,2) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `product_code` (`code`)
-)"
+)`
 
 
 NB: All these goes down in your phpmyadmin panel
